@@ -4,7 +4,7 @@
 
 The standard function for numerical integration in Julia Base is `quadgr()`. It implements an adaptive Gauss-Kronrod procedure of order (7,15) by default and is fast and extremely accurate, especially for smooth functions over finite intervals.
 
-As an example, integrate the function \(f(x) = e^{-x}\,\cos(x)\) from $0$ to $\pi$:
+As an example, integrate the function \\(f(x) = e^{-x}\,\cos(x)\\) from $0$ to $\pi$:
 
 ```julia
     f(x) = exp(-x) * cos(x);
